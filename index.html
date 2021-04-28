@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Company Website</title>
     </head>
-    <body>
+    <body style="background-color: #D5C6A4;">
     <header>
         <img src="logo.svg" alt="logo of the company">
         <nav>
@@ -38,8 +38,8 @@
     </main>
     <aside>
         <p><a href="products.html" target="_blank">Read more about our products.</a></p>
-        <p id="contact">Get in touch</p>
-        <form action="contact.html" method="GET">
+        <h3 id="contact" style="text-align: center;">Get in touch:</h3>
+        <form action="contact.html" method="GET" style="text-align: center;">
             <label>Full name:
                 <input type="text" name="full_name" required>
             </label>
@@ -51,9 +51,10 @@
             <label>Message:
             <textarea name="message" rows="5" cols="50"></textarea>
             </label>
+            <button>Send</button>
         </form>
     </aside>
-    <footer>
+    <footer style="text-align: center;">
         <span>&copy; Company 2019-2010</span>
         <br>
         <span><a href="mailto:info@company.example.com">Send us an e-mail</a></span>
