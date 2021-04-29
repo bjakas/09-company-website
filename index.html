@@ -55,24 +55,27 @@
         <p><a href="about.html" style="color: #9D6858;">Read more about us</a></p>
     </section>
     </main>
-    <aside>
-        <h3 id="contact" style="text-align: center;">Get in touch:</h3>
-        <form action="contact.html" method="GET" style="text-align: center;">
+    <div style="text-align: center;">
+        <h3 id="contact">Get in touch:</h3>
+        <form action="contact.html" method="GET">
             <label>Full name:
-                <input type="text" name="full_name" required>
+                <br><br>
+                <input type="text" name="full_name" required placeholder="Jane Doe">
             </label>
             <br><br>
             <label>Email:
-                <input type="email" name="email" required>
+                <br><br>
+                <input type="email" name="email" required placeholder="your@email.com">
             </label>
             <br><br>
             <label>Message:
-            <textarea name="message" rows="5" cols="50" required></textarea>
+                <br><br>
+            <textarea name="message" rows="5" cols="30" required placeholder="Type your message here..."></textarea>
             </label>
-            <br>
+            <br><br>
             <button>Send</button>
         </form>
-    </aside>
+    </div>
     <hr>
     <footer style="text-align: center;">
         <span>&copy; Company 2021-2010</span>
