@@ -12,7 +12,7 @@ Each HTML document must contain a header with the logo (`logo.svg`) and navigati
 
 Each HTML document must contain a footer with the following:
 
-- &copy; Company 2019-2010
+- &copy; Company 2021-2010
 - info@company.example.com
 
 **Contact form**
